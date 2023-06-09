@@ -1,0 +1,21 @@
+.input-element-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
